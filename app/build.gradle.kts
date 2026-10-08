@@ -66,6 +66,10 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.datastore.preferences)
+    implementation(libs.zxing.core)
+    implementation(libs.play.services.code.scanner)
+    implementation(libs.mlkit.barcode.scanning)
+    implementation(libs.kotlinx.coroutines.play.services)
 
     // Hilt (Práctica 9): la librería, el generador de código, y su pieza para ViewModel
     implementation(libs.hilt.android)
